@@ -1,5 +1,5 @@
 # Climate Change Stance Analysis Project
-This repository serves as a supporting resource for the thesis project titled "Analyzing Climate Change Discourse on Twitter: Stance Classification, Clustering, and Social Network Analysis". The project aims to explore the diverse perspectives and stances present within Twitter discourse regarding climate change, employing advanced data science techniques including natural language processing (NLP), machine learning for stance classification, clustering algorithms for identifying discourse themes, and social network analysis to understand the polarised stances among Twitter users discussing climate change.
+This repository serves as a supporting resource for the thesis project titled "Analyzing Climate Change Discourse on Twitter: Stance Classification, Clustering, and Network Analysis". The project aims to explore the diverse perspectives and stances present within Twitter discourse regarding climate change, employing advanced data science techniques including natural language processing (NLP), machine learning for stance classification, clustering algorithms for identifying discourse themes, and social network analysis to understand the polarised stances among Twitter users discussing climate change.
 
 ## Repository Contents
 
@@ -40,7 +40,7 @@ To utilize this source code effectively, follow these step-by-step instructions 
 
 By following these instructions, you should be able to replicate the analysis presented in the notebook, explore the data, interact with the Network Visualisation, and gain insights into the climate change discourse on Twitter.
 
-## Additional Instructions for Clustering and Network Visualization
+## Additional Instructions for Clustering and Network Visualisation
 
 If your focus is solely on the clustering and network visualization sections of this analysis, you can bypass the initial preprocessing and stance classification steps by directly utilizing the prepared `combined_data.csv` file.
 
