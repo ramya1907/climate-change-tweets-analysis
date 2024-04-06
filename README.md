@@ -12,6 +12,9 @@ This repository serves as a supporting resource for the thesis project titled "A
   - `kaggle.csv`: Dataset sourced from Kaggle platform.
   - `kaggle_2020.csv`: Dataset sourced from Kaggle platform.
 
+- `combined_data.csv`: This file contains data that has undergone preprocessing and stance classification to streamline subsequent analyses, eliminating the need to repeatedly execute preprocessing and stance classification steps prior to clustering.
+
+
 ## How to Use This Source Code
 
 To utilize this source code effectively, follow these step-by-step instructions after downloading the source code from the repository:
@@ -36,3 +39,19 @@ To utilize this source code effectively, follow these step-by-step instructions 
    - Within the 'Data Cleaning' section, `head()` statements are included to ensure CSV files are properly read and the DataFrame is correctly populated. Make sure to check the outputs of these cells to verify that the data loading process has been successful.
 
 By following these instructions, you should be able to replicate the analysis presented in the notebook, explore the data, interact with the Network Visualisation, and gain insights into the climate change discourse on Twitter.
+
+## Additional Instructions for Clustering and Network Visualization
+
+If your focus is solely on the clustering and network visualization sections of this analysis, you can bypass the initial preprocessing and stance classification steps by directly utilizing the prepared `combined_data.csv` file.
+
+1. **Upload the Combined Dataset**:
+   - In addition to the files mentioned above, upload the `combined_data.csv` file to the main content folder (`/content`) in the Colab environment. 
+
+2. **Run the Imports and Installations cell**
+
+3. **Navigate to the Desired Section**:
+   - In the notebook, scroll down to the sections labeled 'Clustering' or 'Network Analysis'.
+   - These sections can be run independently if the `combined_data.csv` file is in place. 
+
+3. **Run the Specific Sections**:
+   - To execute clustering analysis or network visualization, simply run the cells in the corresponding section of the notebook:
